@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>Admin Panel</h2>
+    <ul>
+      <li><a href="#dashboard"><i class="fas fa-home"></i> Dashboard</a></li>
+      <li><a href="#users"><i class="fas fa-users"></i> Quản lý Người dùng</a></li>
+      <li><a href="#products"><i class="fas fa-box"></i> Quản lý Sản phẩm</a></li>
+      <li><a href="#orders"><i class="fas fa-shopping-cart"></i> Quản lý Đơn hàng</a></li>
+      <li><a href="#reports"><i class="fas fa-chart-line"></i> Thống kê</a></li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <header>
+      <h2>Dashboard</h2>
+      <div class="user">
+        <span>Xin chào, Admin</span>
+        <button>Đăng xuất</button>
+      </div>
+    </header>
+
+    <section id="dashboard">
+      <h3>Tổng quan</h3>
+      <div class="cards">
+        <div class="card">
+          <h4>Người dùng</h4>
+          <p>120</p>
+        </div>
+        <div class="card">
+          <h4>Sản phẩm</h4>
+          <p>80</p>
+        </div>
+        <div class="card">
+          <h4>Đơn hàng</h4>
+          <p>45</p>
+        </div>
+        <div class="card">
+          <h4>Doanh thu</h4>
+          <p>12,000,000 VNĐ</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sections for other functionalities -->
+    <section id="users">
+      <h3>Quản lý Người dùng</h3>
+      <button>Thêm Người dùng</button>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Tên</th>
+            <th>Email</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Nguyễn Văn A</td>
+            <td>a@example.com</td>
+            <td>Active</td>
+            <td><button>Sửa</button> <button>Khóa</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="products">
+      <h3>Quản lý Sản phẩm</h3>
+      <button>Thêm Sản phẩm</button>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Tên</th>
+            <th>Giá</th>
+            <th>Hình ảnh</th>
+            <th>Hành động</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Sản phẩm A</td>
+            <td>500,000 VNĐ</td>
+            <td><img src="assets/product.jpg" alt="Product"></td>
+            <td><button>Sửa</button> <button>Xóa</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

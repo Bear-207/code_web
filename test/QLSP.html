@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- thông tin cơ bản -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width - initial-scale=1">
+      <!-- meta di động -->
+      <meta name="viewport" content="width=device-width - initial-scale=1">
+      <meta name="viewport" content="initial-scale=1 - maximum-scale=1">
+      <!-- meta web -->
+      <title>Admin</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+      <!-- font awesome -->
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--  -->
+      <!-- owl stylesheets -->
+      <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Poppins:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesoeet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+   </head>
+   <body>
+      <!-- trang chủ -->
+      <div class="banner_bg_main">
+         <!-- header top section  -->
+         <div class="container">
+            <div class="header_section_top">
+               <div class="row">
+                  <div class="col-sm-12">
+                     <div class="custom_menu">
+                        <ul>
+                           <li><a href="#">       </a></li>
+                           <li><a href="#">Bán chạy </a></li>
+                           <li><a href="#">Mẫu mới </a></li>
+                           <li><a href="#">Chương trình khuyến mãi </a></li>
+                           <li><a href="#">Dịch vụ khách hàng </a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         <!-- phần trên tiêu đề -->
+         <!-- logo tiêu đề -->
+         <div class="logo_section">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12">
+                     <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+                  </div>
+               </div>
+            </div> 
+         </div>
+         <!-- logo cuối-->
+         <!-- phần chú ý  -->
+         <div class="header_section">
+            <div class="container">
+               <div class="containt_main">
+                  <div id="mySidenav" class="sidenav">
+                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                     <a href="Admin.html">Trang chủ </a>
+                     <a href="Doanhthu.html">Doanh thu </a>
+                     <a href="Add.html"> Thêm sản phẩm mới</a>
+                     <a href="Delete.html"> Chỉnh sửa sản phẩm</a>
+                     <a href="QLSP.html"> Quản lý sản phẩm</a>
+                     <a href="QLDH.html"> Quản lý đơn hàng</a>
+                     <a href="Thongke.html"> Thống kê</a>
+                  </div>
+                  <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png"></span>
+                  <div class="dropdown">
+                      
+                     </button>
+                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        
+                     </div>
+                  </div>
+                  <div class="main">
+                     <!-- Another variation with a button -->
+                     <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Tìm kiếm ">
+                        <div class="input-group-append">
+                           <button class="btn btn-secondary" type="button" style="background-color: #f26522; border-color:#f26522 ">
+                           <i class="fa fa-search"></i>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="header_box">
+                     <div class="lang_box ">
+                        
+                        
+                        <div class="dropdown-menu ">
+                           <a href="#" class="dropdown-item">
+                           <img src="images/flag-france.png" class="mr-2" alt="flag">
+                           French
+                           </a>
+                        </div>
+                     </div>
+                     <div class="login_menu">
+                        <ul>
+                           </li>
+                           <li class="login">
+                           <a href="#">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+                              <span class="padding_10">Admin </span></a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- header section end -->
+         <!-- biểu ngữ bắt đầu -->
+         <div class="banner_section layout_padding">
+            <div class="container">
+               <div id="my_slider" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="row">
+                           <div class="col-sm-12">
+                              <h1 class="banner_taital">Mỗi bước đi - một dấu ấn</h1>
+                           
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-sm-12">
+                              <h1 class="banner_taital">Mỗi bước đi - một dấu ấn</h1>
+                             
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-sm-12">
+                              <h1 class="banner_taital">Mỗi bước đi - một dấu ấn</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Sản Phẩm - Shop Giày Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            margin-top: 20px;
+        }
+        .action-btn {
+            margin: 5px;
+        }
+        .edit-form {
+            display: none;
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        .preview-image {
+            max-width: 200px;
+            margin-top: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="text-center">Quản Lý Sản Phẩm</h1>
+
+    <div class="container">
+        <!-- Thêm Sản Phẩm -->
+        <button class="btn btn-primary" onclick="showAddForm()">Thêm Sản Phẩm Mới</button>
+
+        <!-- Bảng Quản Lý Sản Phẩm -->
+        <table class="table table-striped" id="product-table">
+            <thead>
+                <tr>
+                    <th>Tên sản phẩm</th>
+                    <th>Giá</th>
+                    <th>Size</th>
+                    <th>Mô tả</th>
+                    <th>Hình ảnh</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dữ liệu sản phẩm sẽ được thêm vào đây -->
+            </tbody>
+        </table>
+
+        <!-- Form Thêm Sản Phẩm -->
+        <div id="add-form" class="edit-form">
+            <h3>Thêm Sản Phẩm</h3>
+            <label for="product-name">Tên sản phẩm:</label>
+            <input type="text" id="product-name" class="form-control" placeholder="Nhập tên sản phẩm" required>
+
+            <label for="product-price">Giá sản phẩm (VND):</label>
+            <input type="number" id="product-price" class="form-control" placeholder="Nhập giá sản phẩm" required>
+
+            <label>Size sản phẩm:</label>
+            <input type="text" id="product-size" class="form-control" placeholder="Ví dụ: 36, 37, 38" required>
+
+            <label for="product-description">Mô tả sản phẩm:</label>
+            <textarea id="product-description" class="form-control" placeholder="Mô tả sản phẩm" rows="4" required></textarea>
+
+            <label for="product-image">Hình ảnh sản phẩm:</label>
+            <input type="file" id="product-image" class="form-control" accept="image/*" onchange="previewImage(event)">
+
+            <img id="image-preview" class="preview-image" alt="Hình ảnh sản phẩm">
+
+            <button class="btn btn-success mt-3" onclick="saveProduct()">Lưu</button>
+            <button class="btn btn-danger mt-3" onclick="cancelAdd()">Hủy</button>
+        </div>
+
+        <!-- Form Chỉnh Sửa Sản Phẩm -->
+        <div id="edit-form" class="edit-form">
+            <h3>Chỉnh Sửa Sản Phẩm</h3>
+            <label for="edit-product-name">Tên sản phẩm:</label>
+            <input type="text" id="edit-product-name" class="form-control" required>
+
+            <label for="edit-product-price">Giá sản phẩm (VND):</label>
+            <input type="number" id="edit-product-price" class="form-control" required>
+
+            <label>Size sản phẩm:</label>
+            <input type="text" id="edit-product-size" class="form-control" required>
+
+            <label for="edit-product-description">Mô tả sản phẩm:</label>
+            <textarea id="edit-product-description" class="form-control" rows="4" required></textarea>
+
+            <label for="edit-product-image">Hình ảnh sản phẩm:</label>
+            <input type="file" id="edit-product-image" class="form-control" accept="image/*" onchange="previewImageEdit(event)">
+            
+            <img id="edit-image-preview" class="preview-image" alt="Hình ảnh sản phẩm">
+
+            <button class="btn btn-success mt-3" onclick="saveEditedProduct()">Lưu</button>
+            <button class="btn btn-danger mt-3" onclick="cancelEdit()">Hủy</button>
+        </div>
+    </div>
+
+    <script>
+        let currentProductId = null;
+
+        // Thêm sản phẩm mới vào bảng
+        function saveProduct() {
+            const name = document.getElementById('product-name').value;
+            const price = document.getElementById('product-price').value;
+            const size = document.getElementById('product-size').value;
+            const description = document.getElementById('product-description').value;
+            const image = document.getElementById('image-preview').src;
+
+            const table = document.getElementById('product-table').getElementsByTagName('tbody')[0];
+            const newRow = table.insertRow();
+
+            newRow.innerHTML = `
+                <td>${name}</td>
+                <td>${price}</td>
+                <td>${size}</td>
+                <td>${description}</td>
+                <td><img src="${image}" class="preview-image" alt="Hình ảnh sản phẩm"></td>
+                <td>
+                    <button class="btn btn-info action-btn" onclick="showEditForm(${Date.now()})">Chỉnh sửa</button>
+                    <button class="btn btn-danger action-btn" onclick="deleteProduct(this)">Xóa</button>
+                </td>
+            `;
+
+            cancelAdd();
+            alert('Sản phẩm đã được thêm thành công!');
+        }
+
+        // Hủy bỏ việc thêm sản phẩm
+        function cancelAdd() {
+            document.getElementById('add-form').style.display = 'none';
+        }
+
+        // Hiển thị form thêm sản phẩm
+        function showAddForm() {
+            document.getElementById('add-form').style.display = 'block';
+        }
+
+        // Hiển thị form chỉnh sửa sản phẩm
+        function showEditForm(productId) {
+            // Tạo ID động để dễ dàng quản lý
+            currentProductId = productId;
+            document.getElementById('edit-form').style.display = 'block';
+            document.getElementById('add-form').style.display = 'none';
+        }
+
+        // Lưu sản phẩm đã chỉnh sửa
+        function saveEditedProduct() {
+            const name = document.getElementById('edit-product-name').value;
+            const price = document.getElementById('edit-product-price').value;
+            const size = document.getElementById('edit-product-size').value;
+            const description = document.getElementById('edit-product-description').value;
+            const image = document.getElementById('edit-image-preview').src;
+
+            // Lấy dòng sản phẩm và cập nhật thông tin
+            const row = document.querySelector(`tr[data-product-id="${currentProductId}"]`);
+            row.children[0].innerText = name;
+            row.children[1].innerText = price;
+            row.children[2].innerText = size;
+            row.children[3].innerText = description;
+            row.children[4].children[0].src = image;
+
+            cancelEdit();
+            alert('Sản phẩm đã được cập nhật thành công!');
+        }
+
+        // Hủy bỏ việc chỉnh sửa sản phẩm
+        function cancelEdit() {
+            document.getElementById('edit-form').style.display = 'none';
+        }
+
+        // Xóa sản phẩm
+        function deleteProduct(button) {
+            if (confirm("Bạn có chắc chắn muốn xóa sản phẩm này?")) {
+                const row = button.closest('tr');
+                row.remove();
+                alert("Sản phẩm đã được xóa thành công!");
+            }
+        }
+
+        // Hiển thị hình ảnh trước khi lưu
+        function previewImage(event) {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                const preview = document.getElementById('image-preview');
+                preview.src = e.target.result;
+                preview.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+        }
+
+        // Hiển thị hình ảnh trước khi chỉnh sửa
+        function previewImageEdit(event) {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                const preview = document.getElementById('edit-image-preview');
+                preview.src = e.target.result;
+                preview.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+        }
+    </script>
+</body>
+</html>
+
+</body>
+</html>
+</div>
+<div id="jewellery_main_slider" class="carousel slide" data-ride="carousel">
+   <div class="carousel-inner">
+      <!-- Nội dung slide -->
+   </div>
+</div>
+</div>
+</div>
+<!-- jewellery  section end -->
+<!-- footer section  -->
+<div class="footer_section layout_padding">
+<div class="container">
+<div class="footer_logo"><a href="index.html"><img src="images/logo.png"></a></div>
+<div class="location_main">Điện thoại hỗ trợ: <a href="#">(+84) 819351186</a></div>
+</div>
+</div>
+<!-- footer section end -->
+<!-- copyright section  -->
+<div class="copyright_section">
+<div class="container">
+<p class="copyright_text">Chân thành cảm ơn quý khách đã ủng hộ! </span></p>
+</div>
+</div>
+<!-- copyright section end -->
+<!-- Javascript files-->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/plugin.js"></script>
+<!-- sidebar -->
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/custom.js"></script>
+<script>
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>
+    
+
+<!-- Modal Xem Chi Tiết Đơn Hàng -->
+    <!-- Modal -->
+    <div class="modal fade" id="viewOrderModal" tabindex="-1" aria-labelledby="viewOrderModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="viewOrderModalLabel">Chi tiết đơn hàng</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Mã đơn hàng:</strong> <span id="order-id"></span></p>
+            <p><strong>Khách hàng:</strong> <span id="customer-name"></span></p>
+            <p><strong>Danh sách sản phẩm:</strong> <span id="product-list"></span></p>
+            <p><strong>Tổng tiền:</strong> <span id="total-amount"></span></p>
+            <p><strong>Địa chỉ:</strong> <span id="address"></span></p>
+            <p><strong>Trạng thái:</strong> <span id="status"></span></p>
+            <p><strong>Ngày tạo:</strong> <span id="created-date"></span></p>
+            <p><strong>Hình ảnh sản phẩm:</strong></p>
+            <div id="product-images" class="d-flex flex-wrap">
+              <!-- Hình ảnh sản phẩm sẽ được thêm vào đây -->
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+      <script>
+          // Cập nhật trạng thái đơn hàng
+          function updateStatus(selectElement) {
+              const status = selectElement.value;
+              alert("Trạng thái đơn hàng đã được thay đổi thành: " + status);
+          }
+  
+          // Xem chi tiết đơn hàng
+          function viewOrderDetails(orderId) {
+              // Thay đổi nội dung trong modal với thông tin của đơn hàng
+              const modal = $('#order-details-modal');
+              const order = getOrderDetails(orderId);
+              
+              // Cập nhật các trường trong modal với dữ liệu của đơn hàng
+              $('#order-id').text(order.id);
+              $('#customer-name').text(order.customer);
+              $('#product-list').text(order.products.join(', '));
+              $('#total-amount').text(order.total);
+              $('#shipping-address').text(order.address);
+              $('#order-status').text(order.status);
+              $('#order-date').text(order.date);
+              
+              // Hiển thị modal
+              modal.modal('show');
+  
+          // Xem chi tiết đơn hàng
+          function redirectToMultipleOrderDetails(orderId) {
+      // Chuyển hướng đến trang dh1.html, dh2.html, dh3.html với mã đơn hàng
+      const pages = ['dh1.html', 'dh2.html', 'dh3.html', 'dh4.html', 'dh5.html'];  // Các trang bạn muốn chuyển hướng
+      pages.forEach(page => {
+          window.location.href = `dh1.html?orderId=${encodeURIComponent(orderId)}`;
+          window.location.href = `dh2.html?orderId=${encodeURIComponent(orderId)}`;
+          window.location.href = `dh3.html?orderId=${encodeURIComponent(orderId)}`;
+          window.location.href = `dh4.html?orderId=${encodeURIComponent(orderId)}`;
+          window.location.href = `dh5.html?orderId=${encodeURIComponent(orderId)}`;
+      });
+  }
+  
+          function viewOrderDetails(orderId) {
+              const modal = $('#order-details-modal');
+              const order = getOrderDetails(orderId);
+              
+              // Cập nhật thông tin trong modal
+              $('#order-id').text(order.id);
+              $('#customer-name').text(order.customer);
+              $('#product-list').text(order.products);
+              $('#total-amount').text(order.total);
+              $('#shipping-address').text(order.shippingAddress);
+              $('#order-status').text(order.status);
+              $('#order-date').text(order.date);
+              
+              // Cập nhật hình ảnh sản phẩm
+              $('#product-image-1').attr('src', order.images[0]);
+              $('#product-image-2').attr('src', order.images[1]);
+  
+              // Mở modal
+              modal.modal('show');
+          }
+  
+          // Xóa đơn hàng (thực hiện hành động)
+          function deleteOrder(button) {
+              const row = button.closest('tr');
+              row.remove();
+          }
+      </script>
+  
+  </body>
+  </html>
